@@ -4,7 +4,9 @@ const nextConfig = {
   swcMinify: true,
   output: 'standalone',
   experimental: {
-    allowFutureImage: true,
+    images: {
+      allowFutureImage: true,
+    },
   },
 };
 
